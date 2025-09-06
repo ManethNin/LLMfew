@@ -1,0 +1,79 @@
+# Ignore PyCharm specific directory
+.idea/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+myenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Ignore other files that should not be in the repository
+.DS_Store  # MacOS specific
+.env
+.vscode/  # VSCode specific
+*.log
+*.sqlite3
+myenv/
+
+# TensorBoard logs
+tensorboard/
+
+# Model checkpoints
+HW_ckpt_groq/
+HW_ckpt_local/
+best_model_epoch_*.pt
+
+# Numpy data
+npydata/
+
+# Shell scripts output
+*.sh
