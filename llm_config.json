@@ -1,0 +1,76 @@
+{
+    "groq-llama3-8b": {
+        "dim": 1536,
+        "use_api": true,
+        "model_name": "llama-3.1-8b-instant",
+        "num_layers": 6
+    },
+    "groq-llama3-70b": {
+        "dim": 2048,
+        "use_api": true,
+        "model_name": "llama-3.1-70b-versatile",
+        "num_layers": 8
+    },
+    "groq-mixtral": {
+        "dim": 1536,
+        "use_api": true,
+        "model_name": "mixtral-8x7b-32768",
+        "num_layers": 6
+    },
+    "groq-gemma": {
+        "dim": 1024,
+        "use_api": true,
+        "model_name": "gemma2-9b-it",
+        "num_layers": 4
+    },
+    "local-small": {
+        "dim": 512,
+        "use_api": false,
+        "num_layers": 4
+    },
+    "local-medium": {
+        "dim": 768,
+        "use_api": false,
+        "num_layers": 6
+    },
+    "local-large": {
+        "dim": 1024,
+        "use_api": false,
+        "num_layers": 8
+    },
+    "gpt2": {
+        "dim": 768,
+        "use_api": false,
+        "num_layers": 6
+    },
+    "gpt2-medium": {
+        "dim": 1024,
+        "use_api": false,
+        "num_layers": 8
+    },
+    "gpt2-large": {
+        "dim": 1280,
+        "use_api": false,
+        "num_layers": 10
+    },
+    "llama3": {
+        "dim": 4096,
+        "use_api": false,
+        "num_layers": 12
+    },
+    "qwen0.5": {
+        "dim": 896,
+        "use_api": false,
+        "num_layers": 6
+    },
+    "qwen1.5": {
+        "dim": 1536,
+        "use_api": false,
+        "num_layers": 8
+    },
+    "phi3": {
+        "dim": 3072,
+        "use_api": false,
+        "num_layers": 10
+    }
+}
